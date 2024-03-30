@@ -5,7 +5,7 @@ package servicegraphconnector // import "github.com/open-telemetry/opentelemetry
 
 import (
 	"go.opentelemetry.io/collector/pdata/pcommon"
-	semconv "go.opentelemetry.io/collector/semconv/v1.9.0"
+	semconv "go.opentelemetry.io/collector/semconv/v1.22.0"
 )
 
 func findAttributeValue(key string, attributes ...pcommon.Map) (string, bool) {

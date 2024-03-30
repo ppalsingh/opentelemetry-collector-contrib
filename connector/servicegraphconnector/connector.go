@@ -19,7 +19,7 @@ import (
 	"go.opentelemetry.io/collector/pdata/pmetric"
 	"go.opentelemetry.io/collector/pdata/ptrace"
 	"go.opentelemetry.io/collector/processor"
-	semconv "go.opentelemetry.io/collector/semconv/v1.13.0"
+	semconv "go.opentelemetry.io/collector/semconv/v1.22.0"
 	"go.opentelemetry.io/otel/metric"
 	"go.uber.org/zap"
 
@@ -42,7 +42,7 @@ var (
 	}
 
 	defaultPeerAttributes = []string{
-		semconv.AttributeDBName, semconv.AttributeNetSockPeerAddr, semconv.AttributeNetPeerName, semconv.AttributeRPCService, semconv.AttributeNetSockPeerName, semconv.AttributeNetPeerName, semconv.AttributeHTTPURL, semconv.AttributeHTTPTarget,
+		semconv.AttributeDBName, semconv.AttributeRPCService,
 	}
 
 	defaultDatabaseNameAttribute = semconv.AttributeDBName

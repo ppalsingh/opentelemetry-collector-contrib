@@ -5,7 +5,7 @@ package exceptionsconnector // import "github.com/open-telemetry/opentelemetry-c
 
 import (
 	"go.opentelemetry.io/collector/pdata/pcommon"
-	conventions "go.opentelemetry.io/collector/semconv/v1.18.0"
+	conventions "go.opentelemetry.io/collector/semconv/v1.22.0"
 )
 
 const (

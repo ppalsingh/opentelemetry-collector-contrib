@@ -30,7 +30,7 @@ import (
 	"github.com/open-telemetry/opamp-go/protobufs"
 	"github.com/open-telemetry/opamp-go/server"
 	serverTypes "github.com/open-telemetry/opamp-go/server/types"
-	semconv "go.opentelemetry.io/collector/semconv/v1.21.0"
+	semconv "go.opentelemetry.io/collector/semconv/v1.22.0"
 	"go.uber.org/zap"
 
 	"github.com/open-telemetry/opentelemetry-collector-contrib/cmd/opampsupervisor/supervisor/commander"

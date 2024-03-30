@@ -64,7 +64,7 @@ func Test_TruncateTime(t *testing.T) {
 					return d, nil
 				},
 			},
-			expected: time.Date(1980, 9, 9, 9, 0, 0, 0, time.Local),
+			expected: time.Date(1980, 9, 9, 9, 0, 0, 0, time.UTC),
 		},
 	}
 	for _, tt := range tests {
