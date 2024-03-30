@@ -89,6 +89,7 @@ func fillResource(resource pcommon.Resource) {
 	attrs.PutStr(conventions.AttributeHostName, "xxx.et15")
 	attrs.PutStr(conventions.AttributeContainerName, "signup_aggregator")
 	attrs.PutStr(conventions.AttributeContainerImageName, "otel/signupaggregator")
+	attrs.PutStr(conventions.AttributeContainerImageTags, "v1")
 	attrs.PutStr(conventions.AttributeCloudProvider, conventions.AttributeCloudProviderAWS)
 	attrs.PutStr(conventions.AttributeCloudAccountID, "999999998")
 	attrs.PutStr(conventions.AttributeCloudRegion, "us-west-2")
